@@ -1,18 +1,25 @@
 {
   "name": "telegram-image-bot",
   "version": "1.0.0",
-  "description": "Bot de Telegram para generar imágenes con IA",
+  "description": "Bot de Telegram para generar imágenes con IA usando Pollinations.ai",
   "main": "bot.js",
+  "type": "module",
   "scripts": {
     "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "dev": "node bot.js"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.64.0",
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.0"
+    "axios": "^1.6.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
-  }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ai",
+    "image-generation",
+    "pollinations"
+  ]
 }
