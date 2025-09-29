@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // --- CONFIGURACIÓN ---
 // Usa variables de entorno en Render para mayor seguridad
-const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || "7723354766:AAGbWFlxNy4a6hUvmZTeXoHTUnIXB1f0HcI";
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || "7723354766:AAHa552gQdu4VDZXOkm8AF4n_y6UYf-9YWQ";
 const BASE_URL = "https://image.pollinations.ai";
 
 // Configuración global
